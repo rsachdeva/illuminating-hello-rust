@@ -9,7 +9,7 @@ fn main() {
     // The dimensions method returns the images width and height.
     println!("Before resize dimensions {:?}", img.dimensions());
     // The color method returns the image's `ColorType`.
-    println!("{:?}", img.color());
+    println!("Color Type {:?}", img.color());
 
     let scaled = img.resize(1410, 2250, FilterType::Lanczos3);
     // The dimensions method returns the images width and height.
